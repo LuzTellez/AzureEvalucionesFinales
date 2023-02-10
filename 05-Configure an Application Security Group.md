@@ -74,7 +74,7 @@ You will be creating an Azure resource group named **RG-Exam5** that contains no
 - [ ] Confirm that you created an application security group named **webASG**.
 - [ ] Confirm that you created a network security group named **webNSG**.
 - [ ] Confirm that you created inbound security rules that allow RDP, HTTP, and HTTPS traffic to flow to **webASG**.
-- [ ] Confirm that you associated the web subnet with the **webNSG** network security group.
+- [ ] Confirm that you associated the **web** subnet with the **webNSG** network security group.
 
 # Create an Azure virtual machine
 
@@ -83,7 +83,7 @@ You will be creating an Azure resource group named **RG-Exam5** that contains no
   | Property                   | Value                                     |
   | :------------------------- | :---------------------------------------- |
   | Resource group             | **RG-Exam5**                              |
-  | Virtual machine name       | VM1                                       |
+  | Virtual machine name       | **VM1**                                   |
   | Image                      | **Windows Server 2019 Datacenter - Gen1** |
   | Size                       | **Standard_B2s - 2 vcpus 4 GiB memory**   |
   | Username                   | AzureAdmin                                |
@@ -126,8 +126,8 @@ You will be creating an Azure resource group named **RG-Exam5** that contains no
 
 ## Check your work
 
-- [ ] Confirm that you created an Azure virtual machine named VM1.
-- [ ] Confirm that you associated the webASG application security group with the virtual machine NIC.
+- [ ] Confirm that you created an Azure virtual machine named **VM1**.
+- [ ] Confirm that you associated the **webASG** application security group with the virtual machine NIC.
 - [ ] Confirm that you installed IIS on the virtual machine via RDP.
 - [ ] Confirm that you verified that web traffic has been routed correctly.
 

@@ -62,7 +62,7 @@ You will be creating an Azure resource group named **RG-Exam8** that initially c
 ## Check your work
 
 - [ ] Confirm that you downloaded and reviewed the blobs in the boot diagnostics container in the **sacorpdiag[Initials]** storage account.
-- [ ] Confirm that you created charts to display selected metrics for VM1.
+- [ ] Confirm that you created charts to display selected metrics for **VM1**.
 
 # Enable guest-level monitoring
 
@@ -110,7 +110,7 @@ You will be creating an Azure resource group named **RG-Exam8** that initially c
 
 ## Check your work
 
-- [ ] Confirm that you created an alert rule named Percentage CPU above 80 for VM1.
+- [ ] Confirm that you created an alert rule named Percentage CPU above 80 for **VM1**.
 - [ ] Confirm that you added a new action group named **ag-[Initials]** for the alert rule.
 
 # Summary

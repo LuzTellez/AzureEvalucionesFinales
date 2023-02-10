@@ -96,7 +96,7 @@ You will be creating Azure environment that contains a resource group named **RG
 ## Check your work
 
 - [ ] Confirm that you created a virtual machine named **VM2** that uses an existing operating system disk named **VM2_OsDisk_1_[initials]**.
-- [ ] Confirm that you verified that the web app on **VM2** displays the text Auto-scale web application.
+- [ ] Confirm that you verified that the web app on **VM2** displays the text **Auto-scale web application**.
 
 # Summary
 
@@ -107,4 +107,4 @@ You have accomplished the following:
 - Prepared to create a managed disk snapshot.
 - Created a snapshot of an existing managed disk.
 - Created a new managed disk from the snapshot.
-- Created a virtual machine from the new managed disk.
+- Created a virtual machine from the new managed disk.--

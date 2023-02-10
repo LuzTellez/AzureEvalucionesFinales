@@ -20,7 +20,7 @@ You will be creating an Azure resource group named **RG-Exam4** with not resourc
   | Property             | Value        |
   | :------------------- | :----------- |
   | Resource group       | **RG-Exam4** |
-  | Name                 | webVNET      |
+  | Name                 | **webVNET**  |
   | IPv4 address space   | 10.10.0.0/16 |
   | Subnet name          | web          |
   | Subnet address range | 10.10.0.0/25 |
@@ -31,8 +31,8 @@ You will be creating an Azure resource group named **RG-Exam4** with not resourc
 
 ## Check your work
 
-- [ ] Confirm that you created a virtual network named webVNET.
-- [ ] Confirm that you created a subnet named web in the webVNET virtual network.
+- [ ] Confirm that you created a virtual network named **webVNET**.
+- [ ] Confirm that you created a subnet named web in the **webVNET** virtual network.
 
 # Create a virtual network by using Azure Cloud Shell
 
