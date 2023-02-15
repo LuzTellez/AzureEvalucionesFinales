@@ -16,3 +16,4 @@ Lista de asignación:
 | HCARM-005 | 08-    | Rafael Román Martínez       |
 | AIS-002   | 09-    | Jonnathan López Pérez       |
 | IaaS-004  | 10-    | Alejandro Manzano Dorado    |
+| AIS-001   | 11-    | Antonio Montiel Fernández   |
