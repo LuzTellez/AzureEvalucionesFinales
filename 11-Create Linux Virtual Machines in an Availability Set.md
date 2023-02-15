@@ -12,7 +12,7 @@ You will be creating the following resources:
 
 | Resource        | Name           | Notes                          |
 | :-------------- | :------------- | ------------------------------ |
-| Resource group  | **RG21**       |                                |
+| Resource group  | **RG-EXAM11**  |                                |
 | Virtual Network | **app-vnet**   | 10.0.0.0/16 East US            |
 | Subnet          | frontend       | 10.0.0.0/24 beloging app-nvent |
 | Storage account | sacs[Initials] |                                |
@@ -25,7 +25,7 @@ You will be creating the following resources:
 
   Make sure you are signed in to Azure as the administrator.
 
-- Create a managed availability set named **app-frontend-avset** in the **RG21** resource group by using 2 fault domains and 5 update domains.
+- Create a managed availability set named **app-frontend-avset** in the **RG-EXAM11** resource group by using 2 fault domains and 5 update domains.
 
   >You can use an availability set to provide redundancy for the front-end server tier. This helps to maintain application availability in the event of a power source or network switch failure, or when you need to reboot a server.
   >
@@ -37,7 +37,7 @@ You will be creating the following resources:
 
 # Create an SSH key pair
 
-- Configure an Azure Cloud Shell **Bash** session by using the existing **RG21** resource group, an existing storage account named **sacs[Initials]** in the **East US** region, and a new file share named cloud-shell-share.
+- Configure an Azure Cloud Shell **Bash** session by using the existing **RG-EXAM11** resource group, an existing storage account named **sacs[Initials]** in the **East US** region, and a new file share named cloud-shell-share.
 
 - Create an SSH key pair that uses the rsa algorithm, a key size of 4096 bits, the default file path, and no passphrase by using the [ssh-keygen](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys#supported-ssh-key-formats) command.
 
@@ -73,7 +73,7 @@ You will be creating the following resources:
 
   | Property              | Value                                           |
   | :-------------------- | :---------------------------------------------- |
-  | Resource group        | **RG21**                                        |
+  | Resource group        | **RG-EXAM11**                                   |
   | Name                  | app-frontend-vm1                                |
   | Availability options  | **Availability set**                            |
   | Availability set      | **app-frontend-avset**                          |
@@ -93,7 +93,7 @@ You will be creating the following resources:
 
   | Property              | Value                                           |
   | :-------------------- | :---------------------------------------------- |
-  | Resource group        | **RG21**                                        |
+  | Resource group        | **RG-EXAM11**                                   |
   | Name                  | app-frontend-vm2                                |
   | Availability options  | **Availability set**                            |
   | Availability set      | **app-frontend-avset**                          |
